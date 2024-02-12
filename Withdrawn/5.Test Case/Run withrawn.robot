@@ -10,14 +10,13 @@ ${Next_Workstation__c}    Dummy System Workstation
 ${Previous_WorkStation__c}    Dummy System Workstation
 ${Loan_Application_Status__c}    Resolved-Withdrawn
 
-${Ref no}    		BT2023110800012
+${Ref no}    		BT2023110800030
 
 
 
 
 
 *** Tasks ***
-
 
 Rnu Withdrawn
 
@@ -53,7 +52,6 @@ Rnu Withdrawn
 *** Keywords ***
 
 Sub_State__c
-
 
 
             ${element}=    Execute JavaScript    return document.querySelector('input.filter-input');
